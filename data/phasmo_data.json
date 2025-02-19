@@ -1,0 +1,433 @@
+{
+    "ghosts": [
+        {
+            "name": "Spirit", 
+            "evidence": ["EMF Level 5", "Spirit Box", "Ghost Writing"],
+            "strength": "No unique strengths.",
+            "weakness": "Smudge sticks prevent it from hunting for a long period (Cannot hunt for 3mins).",
+            "behavior": "A standard ghost with no special behaviors.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Wraith", 
+            "evidence": ["EMF Level 5", "Spirit Box", "DOTS Projector"],
+            "strength": "Cannot be tracked by footsteps.",
+            "weakness": "Salt repels it, causing it to avoid the area (e.g Cannot step in salt).",
+            "behavior": "Often teleports to players' locations.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Phantom", 
+            "evidence": ["Spirit Box", "Fingerprints", "DOTS Projector"],
+            "strength": "Looking at the Phantom significantly drops your sanity.",
+            "weakness": "Taking a photo of the Phantom will cause it to disappear temporarily.",
+            "behavior": "Will disappear when a photo is taken, making it hard to track.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Poltergeist", 
+            "evidence": ["Spirit Box", "Fingerprints", "Ghost Writing"],
+            "strength": "Can throw multiple objects at once.",
+            "weakness": "Becomes powerless with no objects nearby.",
+            "behavior": "Throws objects frequently, creating high activity.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Banshee", 
+            "evidence": ["Fingerprints", "Ghost Orb", "DOTS Projector"],
+            "strength": "Targets one player at a time.",
+            "weakness": "Can be identified using a parabolic microphone.",
+            "behavior": "Will prioritize its target even during hunts.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Jinn", 
+            "evidence": ["EMF Level 5", "Fingerprints", "Freezing Temperatures"],
+            "strength": "Travels faster if the victim is far away.",
+            "weakness": "Turning off the breaker prevents it from using its ability.",
+            "behavior": "Prefers to leave the breaker on and uses it for speed boosts.",
+            "speed": "1.7 m/s (normal), 2.5 m/s (when chasing from a distance)",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Mare", 
+            "evidence": ["Spirit Box", "Ghost Orbs", "Ghost Writing"],
+            "strength": "More likely to attack in the dark.",
+            "weakness": "Turning on the lights will make it less aggressive.",
+            "behavior": "Prefers darkness, will turn off lights frequently.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "40% sanity (lights off), 60% sanity (lights on)"
+        },
+        {
+            "name": "Revenant", 
+            "evidence": ["Ghost Orbs", "Ghost Writing", "Freezing Temperatures"],
+            "strength": "Moves extremely fast when hunting its target.",
+            "weakness": "Moves very slowly when not hunting.",
+            "behavior": "Can rapidly close the distance if it sees you.",
+            "speed": "1.0 m/s (normal), 3.0 m/s (chasing)",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Shade",
+            "evidence": ["EMF Level 5", "Ghost Writing", "Freezing Temperatures"],
+            "strength": "Very shy, less active around multiple players.",
+            "weakness": "Hard to detect due to its shyness.",
+            "behavior": "Less likely to interact when many players are nearby.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "35% sanity"
+        },
+        {
+            "name": "Demon", 
+            "evidence": ["Fingerprints", "Ghost Writing", "Freezing Temperatures"],
+            "strength": "Hunts more often than any other ghost.",
+            "weakness": "Crucifixes are more effective against Demons.",
+            "behavior": "Will hunt aggressively and frequently.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "70% sanity"
+        },
+        {
+            "name": "Yurei", 
+            "evidence": ["Ghost Orbs", "Freezing Temperatures", "DOTS Projector"],
+            "strength": "Drains sanity faster than other ghosts.",
+            "weakness": "Smudge sticks reduce its activity more than usual.",
+            "behavior": "Sanity drains much faster when near it.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Hantu", 
+            "evidence": ["Fingerprints", "Ghost Orbs", "Freezing Temperatures"],
+            "strength": "Moves faster in colder environments.",
+            "weakness": "Slower in warm environments.",
+            "behavior": "Prefers colder rooms, speed varies based on temperature.",
+            "speed": "1.7 m/s (warmer rooms), 2.7 m/s (cold rooms)",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Oni", 
+            "evidence": ["EMF Level 5", "Freezing Temperatures", "DOTS Projector"],
+            "strength": "More active around groups of people.",
+            "weakness": "Easier to find due to high activity.",
+            "behavior": "Loves to interact and move objects frequently.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Yokai", 
+            "evidence": ["Spirit Box", "Ghost Orbs", "DOTS Projector"],
+            "strength": "Can hunt at higher sanity if players talk near it.",
+            "weakness": "Can only hear voices close to it during hunts.",
+            "behavior": "Triggered by player voices, becomes more aggressive.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "80% sanity if talking near it"
+        },
+        {
+            "name": "Goryo", 
+            "evidence": ["EMF Level 5", "Fingerprints", "DOTS Projector"],
+            "strength": "Only shows itself on camera if no one is nearby.",
+            "weakness": "Rarely seen far from its place of death.",
+            "behavior": "Appears only in DOTS when viewed through a camera.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Myling", 
+            "evidence": ["EMF Level 5", "Fingerprints", "Ghost Writing"],
+            "strength": "Quieter during hunts.",
+            "weakness": "Produces more paranormal sounds on a parabolic microphone.",
+            "behavior": "Silent when hunting, making it harder to detect.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Onryo", 
+            "evidence": ["Spirit Box", "Ghost Orbs", "Freezing Temperatures"],
+            "strength": "Can hunt earlier when candles are extinguished.",
+            "weakness": "Candles can prevent it from hunting.",
+            "behavior": "Uses candles as a hunting trigger.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "50% sanity (lower if multiple candles go out)"
+        },
+        {
+            "name": "The Twins", 
+            "evidence": ["EMF Level 5", "Spirit Box", "Freezing Temperatures"],
+            "strength": "Can act independently, sometimes attacking simultaneously.",
+            "weakness": "One is faster, one is slower.",
+            "behavior": "Can trigger multiple interactions at different locations.",
+            "speed": "1.4 m/s (slow twin), 2.2 m/s (fast twin)",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Raiju", 
+            "evidence": ["EMF Level 5", "Ghost Orbs", "DOTS Projector"],
+            "strength": "Moves faster near active electronic equipment.",
+            "weakness": "Disrupts electronic equipment at greater distances.",
+            "behavior": "Becomes dangerous if electronics are left on.",
+            "speed": "1.7 m/s (normal), 2.5 m/s (near electronics)",
+            "hunt_threshold": "50% sanity (65% if near electronics)"
+        },
+        {
+            "name": "Obake", 
+            "evidence": ["EMF Level 5", "Fingerprints", "Ghost Orbs"],
+            "strength": "Can change its fingerprints, making it difficult to identify.",
+            "weakness": "Sometimes leaves unique handprints that reveal its identity.",
+            "behavior": "Rarely changes forms but leaves unpredictable evidence.",
+            "speed": "1.7 m/s",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "The Mimic", 
+            "evidence": ["Spirit Box", "Fingerprints", "Freezing Temperatures"],
+            "strength": "Can imitate the traits of other ghosts.",
+            "weakness": "Always has Ghost Orbs, despite not requiring them as evidence.",
+            "behavior": "Mimics different ghost behaviors, making identification difficult.",
+            "speed": "Varies (depends on mimicked ghost)",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Moroi", 
+            "evidence": ["Spirit Box", "Ghost Writing", "Freezing Temperatures"],
+            "strength": "Becomes faster as players lose sanity.",
+            "weakness": "Can be temporarily blinded by smudge sticks for a longer time.",
+            "behavior": "Hunts aggressively when player sanity is low.",
+            "speed": "1.7 m/s (up to 2.9 m/s at low sanity)",
+            "hunt_threshold": "50% sanity (earlier if sanity is low)"
+        },
+        {
+            "name": "Deogen", 
+            "evidence": ["Spirit Box", "Ghost Writing", "DOTS Projector"],
+            "strength": "Always knows your location during a hunt.",
+            "weakness": "Moves extremely slowly when close to its target.",
+            "behavior": "Starts fast but slows dramatically when near a player.",
+            "speed": "0.4 m/s (close range), 3.0 m/s (far range)",
+            "hunt_threshold": "50% sanity"
+        },
+        {
+            "name": "Thaye", 
+            "evidence": ["Ghost Orbs", "Ghost Writing", "DOTS Projector"],
+            "strength": "Starts out fast and aggressive.",
+            "weakness": "Slows down significantly over time.",
+            "behavior": "Aging mechanic causes it to become less active as time progresses.",
+            "speed": "Starts at 2.75 m/s, slows over time",
+            "hunt_threshold": "75% sanity (lowers over time)"
+        }      
+    ],
+    "maps": {
+    "Tanglewood": {
+        "breaker": ["Garage", "Basement"],
+        "cursed_objects": ["Living Room", "Bedrooms", "Hallway"],
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/a/a4/Tanglewood_Front.png/revision/latest?cb=20240112125825"
+    },
+    "Ridgeview": {
+        "breaker": ["Basement"],
+        "cursed_objects": ["Upstairs Hallway", "Garage", "Master Bedroom"],
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/1/1e/Ridgeview_living_room.png/revision/latest?cb=20240112130102"
+    },
+    "Edgefield": {
+        "breaker": ["Basement", "Garage"],
+        "cursed_objects": ["Dining Room", "Upstairs Hallway", "Garage"],
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/8/80/Edgefield_first_floor_hallway.png/revision/latest?cb=20240112130531"
+    },
+    "Willow Street House": {
+        "breaker": ["Basement", "Garage"],
+        "cursed_objects": ["Living Room", "Garage", "Bedroom"],
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/0/0c/Willow_new.png/revision/latest?cb=20240112130341"
+    },
+    "Bleasdale Farmhouse": {
+        "breaker": ["Attic", "Workshop"],
+        "cursed_objects": ["Parlor", "Kitchen", "Upstairs Hallway"],
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/f/fb/Bleasdale_updated.png/revision/latest?cb=20240112130731"
+    },
+    "Grafton Farmhouse": {
+        "breaker": ["Back Room", "Under stairs"],
+        "cursed_objects": ["Dining Room", "Living Room", "Kitchen"],
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/7/7a/Grafton_foyer.png/revision/latest?cb=20240112125406"
+    },
+    "Brownstone High School": {
+        "breaker": ["Gym Storage", "Principal’s Office"],
+        "cursed_objects": ["Library", "Classrooms", "Auditorium"],
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/a/a5/High_school_updated2.png/revision/latest?cb=20240112131538"
+    },
+    "Sunny Meadows Asylum": {
+        "breaker": ["Main Hall", "Security Room"],
+        "cursed_objects": ["Lobby", "Wards", "Bathrooms", "Chapel"],
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/c/cb/Smmi_updated1.png/revision/latest?cb=20240112131752"
+    },
+    "Maple Lodge Campsite": {
+        "breaker": ["Camp Office", "Main Cabin"],
+        "cursed_objects": ["Picnic Area", "Cabin Bedroom", "Storage Tent"],
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/9/9f/Maple-rework-main-shot.png/revision/latest?cb=20240112125636"
+    },
+    "Prison": {
+        "breaker": ["Warden’s Office", "Infirmary"],
+        "cursed_objects": ["Cell Blocks A & B", "Showers", "Cafeteria"],
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fscreenrant.com%2Fnew-prison-map-phasmophobia%2F&psig=AOvVaw1S0ivTYryFqktZzNjAKmHj&ust=1740017129478000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJjLhYzTzosDFQAAAAAdAAAAABAQ"
+    },
+    "Camp Woodwind": {
+        "breaker": ["Entrance"],
+        "cursed_objects": ["Central Campfire", "Tents", "Storage Tent"],
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/7/7b/Camp_woodwind.png/revision/latest?cb=20240112131010"
+    },
+    "Point Hope": {
+        "breaker": ["Storage Room"],
+        "cursed_objects": ["Living Room", "Bedrooms", "Hallway"],
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdotesports.com%2Fphasmophobia%2Fnews%2Fall-phasmophobia-point-hope-cursed-possession-locations&psig=AOvVaw0w54KzgpCddkoy3SqIWBc4&ust=1740016981535000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNiS3sTSzosDFQAAAAAdAAAAABAv"
+    },
+    "Sunny Meadows Restricted": {
+        "breaker": ["Security Room"],
+        "cursed_objects": ["Lobby", "Wards", "Bathrooms", "Chapel"],
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/c/cb/Smmi_updated1.png/revision/latest?cb=20240112131752"
+        }
+    },
+"cursed_possessions": {
+    "Ouija Board": {
+        "description": "Allows communication with the ghost at the cost of sanity.",
+        "usage": "Ask the ghost questions to gain clues, but beware of sanity drain.",
+        "risk": "Breaks if sanity is too low, triggering a cursed hunt.",
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/2/2f/Ouija_Board_New.png/revision/latest?cb=20211210172553"
+    },
+    "Music Box": {
+        "description": "Plays a lullaby that makes the ghost sing along, revealing its location.",
+        "usage": "Place near the ghost to hear it sing and pinpoint its room.",
+        "risk": "If used too long, it triggers a cursed hunt.",
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/5/5f/Music_box_display.jpg/revision/latest?cb=20230131144318"
+    },
+    "Tarot Cards": {
+        "description": "Draws random effects, including sanity boosts, death, or revival.",
+        "usage": "Use at your own risk; cards have different effects based on the draw.",
+        "risk": "Can instantly kill the user if the 'Hanged Man' card is drawn.",
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/a/a7/Tarot_Cards.png/revision/latest?cb=20211210181436"
+    },
+    "Haunted Mirror": {
+        "description": "Shows the ghost room but drains sanity rapidly.",
+        "usage": "Look into the mirror to see the ghost’s room directly.",
+        "risk": "If sanity reaches 0%, the mirror breaks and triggers a cursed hunt.",
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/7/7b/Cursed_Mirror.jpg/revision/latest?cb=20220303041525"
+    },
+    "Summoning Circle": {
+        "description": "Summons the ghost for a photo but immediately starts a hunt.",
+        "usage": "Light all candles in the circle to bring the ghost to one spot.",
+        "risk": "Guaranteed to start a cursed hunt after activation.",
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/d/de/Sc_new1.jpg/revision/latest?cb=20231230161505"
+    },
+    "Voodoo Doll": {
+        "description": "Interacts with the ghost, potentially triggering a hunt.",
+        "usage": "Poke the doll to force interactions and gather clues.",
+        "risk": "Has a chance to immediately start a hunt upon use.",
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/e/e2/Voodoo_Doll_New.jpg/revision/latest?cb=20211210173413"
+    },
+    "Monkey Paw": {
+        "description": "A cursed item that grants wishes with unexpected consequences.",
+        "usage": "Speak a wish aloud while holding the Monkey Paw. The wish may be granted, but with a trade-off.",
+        "risk": "Each wish comes with unintended side effects. Some may increase ghost aggression or cause sanity loss.",
+        "image": "https://static.wikia.nocookie.net/phasmophobia/images/c/cc/Monkey_Paw.png/revision/latest?cb=20230228154004"
+    }
+},
+"evidence_list": {
+    "EMF Level 5": [
+        "Spirit",
+        "Oni",
+        "Jinn",
+        "Raiju",
+        "Goryo",
+        "Myling",
+        "The Twins",
+        "Obake",
+        "Shade"
+    ],
+    "Ghost Orbs": [
+        "Mare",
+        "Yurei",
+        "Banshee",
+        "Revenant",
+        "Obake",
+        "Hantu",
+        "Onryo",
+        "Thaye"
+    ],
+    "Fingerprints": [
+        "Poltergeist",
+        "Banshee",
+        "Demon",
+        "Hantu",
+        "Goryo",
+        "Obake",
+        "The Mimic"
+    ],
+    "DOTS Projector": [
+        "Wraith",
+        "Phantom",
+        "Raiju",
+        "Goryo",
+        "Banshee",
+        "Deogen",
+        "Yokai"
+    ],
+    "Spirit Box": [
+        "Mare",
+        "Phantom",
+        "The Twins",
+        "Wraith",
+        "Yokai",
+        "Onryo",
+        "Deogen",
+        "The Mimic"
+    ],
+    "Ghost Writing": [
+        "Spirit",
+        "Demon",
+        "Revenant",
+        "Shade",
+        "Poltergeist",
+        "Thaye",
+        "Deogen",
+        "Moroi"
+    ],
+    "Freezing Temperatures": [
+        "Hantu",
+        "Yurei",
+        "Revenant",
+        "Shade",
+        "The Twins",
+        "Onryo",
+        "Moroi",
+        "The Mimic"
+    ]
+},
+"tier_list": {
+    "S": ["Demon", "Raiju", "Revenant", "The Mimic"],
+    "A": ["The Twins", "Banshee", "Yokai", "Thaye"],
+    "B": ["Hantu", "Shade", "Poltergeist", "Obake"],
+    "C": ["Wraith", "Spirit", "Phantom", "Goryo"],
+    "D": ["Jinn", "Mare", "Yurei", "Oni"],
+    "E": ["Myling", "Moroi", "Deogen", "Onryo"],
+    "F": ["The Hantu", "The Revenant", "The Banshee", "The Twins"]
+},
+"hunt_thresholds": {
+    "Normal Ghosts": "50% sanity",
+    "Demon": "70% sanity",
+    "Banshee": "Can hunt at any sanity if its target is low",
+    "Mare": "40% sanity (lights off) / 60% sanity (lights on)",
+    "Shade": "35% sanity (harder to trigger hunts)",
+    "Onryo": "Can hunt at higher sanity if multiple candles are extinguished",
+    "Yokai": "80% sanity if talking near it",
+    "Raiju": "65% sanity if near electronics",
+    "Thaye": "Starts at 75% sanity and lowers over time",
+    "Moroi": "Hunts earlier the lower the player’s sanity is"
+},
+"speeds": {
+    "Standard Ghost": "1.7 m/s",
+    "Revenant": "1.0 m/s (normal), 3.0 m/s (chasing)",
+    "Raiju": "1.7 m/s (normal), 2.5 m/s (near electronics)",
+    "Hantu": "Faster in colder temperatures",
+    "The Twins": "One moves faster (2.2 m/s), one moves slower (1.4 m/s)",
+    "Deogen": "0.4 m/s (close range), 3.0 m/s (far range)",
+    "Thaye": "Starts at 2.75 m/s and slows over time",
+    "Moroi": "Becomes faster when players have lower sanity (up to 2.9 m/s)"
+    }
+}
